@@ -1,0 +1,18 @@
+# ConvexForge — pinned dependency lock (author: 晨星)
+#
+# Core runtime path imports NumPy ONLY. scipy / scikit-learn / torch / cvxpy are
+# NOT imported anywhere in the package (asserted by tests/test_offline.py), which
+# is what makes the offline fallback viable.
+#
+# Generated from the verified build environment:
+#   python 3.13.14, numpy 2.5.3, pytest 9.1.1, ruff 0.16.10
+#
+# Install:  pip install -r requirements.lock.txt
+
+# ---- runtime (required) -------------------------------------------------
+numpy==2.5.3
+
+# ---- dev / CI (optional, drop for a minimal offline install) ------------
+pytest==9.1.1
+pytest-cov==7.1.0
+ruff==0.16.10

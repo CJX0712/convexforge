@@ -1,0 +1,1651 @@
+{
+  "config": {
+    "seed": 7,
+    "n_seeds": 3,
+    "n_vars": 80,
+    "n_cons": 30,
+    "n_train": 3,
+    "n_test": 3,
+    "max_iters": 400,
+    "cert_tol": 1e-10,
+    "regimes": [
+      "lp",
+      "qp_pd",
+      "qp_singular",
+      "degen"
+    ]
+  },
+  "rows": [
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 0.1620715010330063,
+      "subopt": -31.05676564800047,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 0.11056716314096741,
+      "subopt": -19.94447126005812,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 0.18059868137979296,
+      "subopt": -39.81970600633929,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 0.0003229650624905535,
+      "subopt": -0.0001586973781169121,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 3.687539141175703e-06,
+      "subopt": -3.372500579246207e-06,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 1.6948906781041193e-09,
+      "subopt": 7.885475383773155e-09,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 0.005091716140959955,
+      "subopt": -0.1782517897333804,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 0.0009438647243444359,
+      "subopt": -0.043502167279886095,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 0.0002480156929772356,
+      "subopt": 0.017719449859200154,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 4.243285769768148e-11,
+      "subopt": 1.2387069148189767e-10,
+      "iters": 7
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 1.1119993814645568e-11,
+      "subopt": 3.0468072509393096e-11,
+      "iters": 7
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 3.784631917829209e-12,
+      "subopt": 3.9108272176235914e-11,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 4.243285769768148e-11,
+      "subopt": 1.2387069148189767e-10,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 1.1119993814645568e-11,
+      "subopt": 3.0468072509393096e-11,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 7,
+      "cert": 3.784631917829209e-12,
+      "subopt": 3.9108272176235914e-11,
+      "iters": 7
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 0.10302534347909462,
+      "subopt": -39.105398122177405,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 0.21334847928375153,
+      "subopt": -22.37014738404067,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 0.14554256777052035,
+      "subopt": -25.929589517473893,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 3.0742387498469015e-08,
+      "subopt": 1.8314977978661773e-08,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 9.93597168024078e-11,
+      "subopt": -1.2754242106893798e-11,
+      "iters": 132
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 5.592855489869883e-08,
+      "subopt": -1.4140547222041278e-07,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 3.920505631843088e-07,
+      "subopt": -1.371262247573668e-05,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 9.693264591797188e-11,
+      "subopt": -3.2670754990249407e-11,
+      "iters": 260
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 3.738338166283143e-08,
+      "subopt": -5.038261718937065e-08,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 2.0268231537556858e-12,
+      "subopt": 3.6493474908638746e-11,
+      "iters": 8
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 1.1320150912464402e-12,
+      "subopt": -2.078337502098293e-11,
+      "iters": 8
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 1.3415647457509411e-12,
+      "subopt": 5.1088022701151203e-11,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 2.0268231537556858e-12,
+      "subopt": 3.6493474908638746e-11,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 1.1320150912464402e-12,
+      "subopt": -2.078337502098293e-11,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 7,
+      "cert": 1.3415647457509411e-12,
+      "subopt": 5.1088022701151203e-11,
+      "iters": 8
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 0.167363944896531,
+      "subopt": -31.022806616266216,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 0.12164838897365168,
+      "subopt": -25.91460452369228,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 0.1234339915502301,
+      "subopt": -18.916371120704262,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 1.756556746540333e-10,
+      "subopt": 3.665192593871325e-10,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 9.350783637259298e-10,
+      "subopt": 3.6915004386628425e-09,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 1.0112422955284827e-09,
+      "subopt": -2.8605029456230113e-10,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 0.00015916197746599733,
+      "subopt": -4.950479402765495e-05,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 8.302832180366137e-07,
+      "subopt": 1.3301618153604977e-06,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 0.0002743267439765027,
+      "subopt": 1.2057679654731146e-05,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 2.413788482764841e-08,
+      "subopt": 4.7192574115229036e-07,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 2.6583567401037403e-09,
+      "subopt": 2.7577208072671056e-08,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 1.1613809726142485e-08,
+      "subopt": 7.745697416794428e-09,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 2.413788482764841e-08,
+      "subopt": 4.7192574115229036e-07,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 2.6583567401037403e-09,
+      "subopt": 2.7577208072671056e-08,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 7,
+      "cert": 1.1613809726142485e-08,
+      "subopt": 7.745697416794428e-09,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 0.13469475653084562,
+      "subopt": -16.66017161493236,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 0.164966692696447,
+      "subopt": -12.805638713115563,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 0.09254492280446933,
+      "subopt": -13.874856581501717,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 4.427194986005273,
+      "subopt": 47641.135548649276,
+      "iters": 7
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 1.3034023605923295,
+      "subopt": 4701.61887816601,
+      "iters": 27
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 1.0,
+      "subopt": 5308.765615988904,
+      "iters": 27
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 9.251831029453443e-11,
+      "subopt": -7.377281008302816e-10,
+      "iters": 254
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 9.50609103717025e-11,
+      "subopt": 2.9695570447074715e-09,
+      "iters": 271
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 1.6518702723769753e-10,
+      "subopt": -1.0433609531901311e-10,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 7.648761401814922e-07,
+      "subopt": 1.2542595086983965e-06,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 9.6132230389241e-13,
+      "subopt": 2.5863755581667647e-11,
+      "iters": 8
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 6.245461277279584e-11,
+      "subopt": 2.1506707525986712e-10,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 9.251831029453443e-11,
+      "subopt": -7.377281008302816e-10,
+      "iters": 254
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 9.50609103717025e-11,
+      "subopt": 2.9695570447074715e-09,
+      "iters": 271
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 7,
+      "cert": 1.6518702723769753e-10,
+      "subopt": -1.0433609531901311e-10,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 0.12184233037223444,
+      "subopt": -34.23261260604487,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 0.12923304802613086,
+      "subopt": -20.60750453973565,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 0.1278932052358759,
+      "subopt": -25.873512003364944,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 4.717408940130446e-09,
+      "subopt": 1.3153805156207454e-08,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 1.5646595104156994e-07,
+      "subopt": -9.609294124857115e-07,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 5.915451399170157e-07,
+      "subopt": -3.157478289494975e-06,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 0.0003294705678344787,
+      "subopt": -0.03710537639283018,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 0.0015022873325411137,
+      "subopt": -0.009109305612049923,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 0.0013290856121321345,
+      "subopt": 0.0038242410403839244,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 6.162181875879469e-12,
+      "subopt": 5.335110131454712e-11,
+      "iters": 7
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 2.0573368812287556e-12,
+      "subopt": 2.312106062163366e-11,
+      "iters": 7
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 9.96383404486143e-12,
+      "subopt": 1.9583978883019881e-10,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 6.162181875879469e-12,
+      "subopt": 5.335110131454712e-11,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 2.0573368812287556e-12,
+      "subopt": 2.312106062163366e-11,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 8,
+      "cert": 9.96383404486143e-12,
+      "subopt": 1.9583978883019881e-10,
+      "iters": 7
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 0.1131260200356908,
+      "subopt": -25.210980086343447,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 0.13937666548504243,
+      "subopt": -26.466729314581542,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 0.10517193114632448,
+      "subopt": -24.56671903287392,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 9.244810544038194e-11,
+      "subopt": -1.1270628874626709e-10,
+      "iters": 208
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 9.529559502436438e-11,
+      "subopt": -5.996980689815246e-11,
+      "iters": 284
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 9.56530777750915e-11,
+      "subopt": -1.1684164746839087e-10,
+      "iters": 86
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 9.479173002091557e-11,
+      "subopt": 1.931564241886008e-09,
+      "iters": 251
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 9.652567387903019e-11,
+      "subopt": 2.360778239562933e-09,
+      "iters": 281
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 8.516314108249735e-11,
+      "subopt": -1.452434617021936e-09,
+      "iters": 267
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 9.00612917575927e-13,
+      "subopt": 6.536993168992922e-13,
+      "iters": 8
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 1.1028163407353276e-12,
+      "subopt": 5.496758603840135e-11,
+      "iters": 8
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 1.1406365431159468e-12,
+      "subopt": 6.146194664324867e-12,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 9.00612917575927e-13,
+      "subopt": 6.536993168992922e-13,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 1.1028163407353276e-12,
+      "subopt": 5.496758603840135e-11,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 8,
+      "cert": 1.1406365431159468e-12,
+      "subopt": 6.146194664324867e-12,
+      "iters": 8
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 0.14819342298384475,
+      "subopt": -26.49601079852279,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 0.11133617201519802,
+      "subopt": -23.168149929585184,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 0.0615804001866624,
+      "subopt": -15.032067435816629,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 9.056520390928938e-06,
+      "subopt": -2.856586188926258e-06,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 2.2855431066022948e-05,
+      "subopt": 3.895940267284459e-05,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 9.388331398883135e-11,
+      "subopt": 5.777849310106831e-10,
+      "iters": 346
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 0.0007134849765732081,
+      "subopt": 0.00035465453690619597,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 0.001551847305874388,
+      "subopt": 0.002386143933222229,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 1.3125969588687388e-05,
+      "subopt": -1.641669601326612e-05,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 2.543376471399011e-08,
+      "subopt": 5.761271495430265e-07,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 1.1521628085522195e-08,
+      "subopt": -3.5530916875359253e-07,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 5.333961638289985e-10,
+      "subopt": -1.1876423400281055e-08,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 2.543376471399011e-08,
+      "subopt": 5.761271495430265e-07,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 1.1521628085522195e-08,
+      "subopt": -3.5530916875359253e-07,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 8,
+      "cert": 5.333961638289985e-10,
+      "subopt": -1.1876423400281055e-08,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 0.10740977494574844,
+      "subopt": -17.214240786521543,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 0.14867913003314903,
+      "subopt": -17.47464401315932,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 0.11156661822088557,
+      "subopt": -29.631951848827875,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 21.87225305569625,
+      "subopt": 638029.1175239842,
+      "iters": 10
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 0.8463596833237746,
+      "subopt": 236.5596692802051,
+      "iters": 45
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 1.0,
+      "subopt": 3344.1015809260934,
+      "iters": 26
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 7.957212666553914e-10,
+      "subopt": 7.234177701320732e-10,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 9.09577413214614e-10,
+      "subopt": -1.7820411812863313e-10,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 9.436379438739814e-11,
+      "subopt": 1.7213253045156307e-10,
+      "iters": 283
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 0.09269157432199368,
+      "subopt": 1.2190458563133717,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 0.007934550912156422,
+      "subopt": 0.027601776018400415,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 5.177582743608226e-13,
+      "subopt": 5.0665249773373944e-11,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 7.957212666553914e-10,
+      "subopt": 7.234177701320732e-10,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 9.09577413214614e-10,
+      "subopt": -1.7820411812863313e-10,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 8,
+      "cert": 9.436379438739814e-11,
+      "subopt": 1.7213253045156307e-10,
+      "iters": 283
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 0.12057363748716088,
+      "subopt": -24.82581722567906,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 0.09988571927020655,
+      "subopt": -16.17810926162384,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 0.10328940363318714,
+      "subopt": -22.751554969253824,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 3.6364319630037724e-08,
+      "subopt": 2.730865276134864e-07,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 9.448180783814097e-11,
+      "subopt": 3.8835779037071916e-10,
+      "iters": 296
+    },
+    {
+      "method": "admm",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 6.518067710690464e-11,
+      "subopt": 1.9259971395513276e-10,
+      "iters": 396
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 0.0008457154002978032,
+      "subopt": 0.014846834229800265,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 9.121574456170327e-05,
+      "subopt": -0.0004088343709778286,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 0.0012544133653417376,
+      "subopt": 0.002184942113714783,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 1.2255711487602287e-11,
+      "subopt": 4.6544812448701123e-10,
+      "iters": 7
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 2.3084512510244322e-11,
+      "subopt": 3.2075497813366383e-10,
+      "iters": 7
+    },
+    {
+      "method": "ipm",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 1.0964686485334917e-12,
+      "subopt": -2.4726887204451486e-12,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 1.2255711487602287e-11,
+      "subopt": 4.6544812448701123e-10,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 2.3084512510244322e-11,
+      "subopt": 3.2075497813366383e-10,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "lp",
+      "seed": 9,
+      "cert": 1.0964686485334917e-12,
+      "subopt": -2.4726887204451486e-12,
+      "iters": 7
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 0.09669375210728914,
+      "subopt": -17.606432095204546,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 0.14934205467734563,
+      "subopt": -43.72438245254547,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 0.15368859506794566,
+      "subopt": -44.56161816119,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 9.642889033396725e-11,
+      "subopt": -2.496491902093112e-10,
+      "iters": 250
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 9.677266575955994e-11,
+      "subopt": -2.8475710678321775e-10,
+      "iters": 260
+    },
+    {
+      "method": "admm",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 9.770501297281034e-11,
+      "subopt": -2.5278978910137084e-10,
+      "iters": 376
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 2.7535042739865215e-10,
+      "subopt": -6.1146749885665486e-09,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 9.313254229630024e-11,
+      "subopt": 9.50137746258406e-10,
+      "iters": 268
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 7.844918321682679e-09,
+      "subopt": 2.2385849973716176e-07,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 3.4539281748444284e-12,
+      "subopt": -6.615152869926533e-12,
+      "iters": 8
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 5.208190444441623e-11,
+      "subopt": 1.8114576505467994e-10,
+      "iters": 7
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 1.824911493414499e-11,
+      "subopt": 8.753886504564434e-11,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 3.4539281748444284e-12,
+      "subopt": -6.615152869926533e-12,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 5.208190444441623e-11,
+      "subopt": 1.8114576505467994e-10,
+      "iters": 7
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_pd",
+      "seed": 9,
+      "cert": 1.824911493414499e-11,
+      "subopt": 8.753886504564434e-11,
+      "iters": 8
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 0.08548653059042728,
+      "subopt": -20.27378073747741,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 0.13954961969065563,
+      "subopt": -28.477425815777195,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 0.11946710893264542,
+      "subopt": -31.293259976222288,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 1.7726948672796746e-10,
+      "subopt": -8.65014726514346e-11,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 9.69823959213036e-11,
+      "subopt": 6.271250185818644e-11,
+      "iters": 253
+    },
+    {
+      "method": "admm",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 7.379800664240914e-11,
+      "subopt": 3.823998895313707e-10,
+      "iters": 265
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 8.600497963702298e-05,
+      "subopt": 0.0002957803642118506,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 1.670440715528798e-05,
+      "subopt": 2.6811497122025685e-05,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 0.00011778906767731366,
+      "subopt": -9.745750688239241e-05,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 3.744446470944013e-09,
+      "subopt": -1.4055956398806302e-09,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 1.3710448959897377e-08,
+      "subopt": 7.89111709309509e-08,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 3.363067838920184e-09,
+      "subopt": 1.929792858845758e-08,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 3.744446470944013e-09,
+      "subopt": -1.4055956398806302e-09,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 1.3710448959897377e-08,
+      "subopt": 7.89111709309509e-08,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "qp_singular",
+      "seed": 9,
+      "cert": 3.363067838920184e-09,
+      "subopt": 1.929792858845758e-08,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 0.10442783778864956,
+      "subopt": -14.840308989468355,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 0.1367587801634009,
+      "subopt": -13.923096745457798,
+      "iters": 400
+    },
+    {
+      "method": "pen",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 0.11916926644318618,
+      "subopt": -24.048144342959063,
+      "iters": 400
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 1.0,
+      "subopt": 562.1615981084831,
+      "iters": 27
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 1.0,
+      "subopt": 437.03594023046696,
+      "iters": 49
+    },
+    {
+      "method": "admm",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 42.405969617920626,
+      "subopt": 1462016.50731001,
+      "iters": 8
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 2.446980452212486e-10,
+      "subopt": -2.0474999473663047e-10,
+      "iters": 400
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 9.43673182495008e-11,
+      "subopt": 1.0670220262909424e-10,
+      "iters": 267
+    },
+    {
+      "method": "pdhg",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 9.898244472089989e-11,
+      "subopt": -2.036415480688447e-11,
+      "iters": 355
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 0.059850876359405544,
+      "subopt": 5.881053086669567,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 0.0042915059462358155,
+      "subopt": 0.052703540497915924,
+      "iters": 400
+    },
+    {
+      "method": "ipm",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 1.0054179711005418e-12,
+      "subopt": 5.0178527999378275e-11,
+      "iters": 8
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 2.446980452212486e-10,
+      "subopt": -2.0474999473663047e-10,
+      "iters": 400
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 9.43673182495008e-11,
+      "subopt": 1.0670220262909424e-10,
+      "iters": 267
+    },
+    {
+      "method": "convfuse",
+      "regime": "degen",
+      "seed": 9,
+      "cert": 9.898244472089989e-11,
+      "subopt": -2.036415480688447e-11,
+      "iters": 355
+    }
+  ],
+  "per_method": {
+    "pen": {
+      "geomean": 0.1237816475437718,
+      "log10_mean": -0.9073437411099445,
+      "log10_std": 0.1015292216162575,
+      "n": 36,
+      "mean_iters": 400.0,
+      "mean_subopt": -24.608321674348296
+    },
+    "admm": {
+      "geomean": 5.510111696205256e-07,
+      "log10_mean": -6.2588395974179205,
+      "log10_std": 4.282253832239554,
+      "n": 36,
+      "mean_iters": 260.5,
+      "mean_subopt": 60063.25009820648
+    },
+    "pdhg": {
+      "geomean": 3.0693404486291515e-07,
+      "log10_mean": -6.512954937322255,
+      "log10_std": 3.091818803927509,
+      "n": 36,
+      "mean_iters": 365.47222222222223,
+      "mean_subopt": -0.006302837381874513
+    },
+    "ipm": {
+      "geomean": 4.315698737927295e-10,
+      "log10_mean": -9.364948879332562,
+      "log10_std": 3.2163762516587697,
+      "n": 36,
+      "mean_iters": 160.13888888888889,
+      "mean_subopt": 0.1994557313537325
+    },
+    "convfuse": {
+      "geomean": 7.062597791709e-11,
+      "log10_mean": -10.15103552570623,
+      "log10_std": 1.4262277731216262,
+      "n": 36,
+      "mean_iters": 187.88888888888889,
+      "mean_subopt": 2.270445165208912e-08
+    }
+  },
+  "per_regime": {
+    "lp": {
+      "pen": 0.12617882102136685,
+      "admm": 3.875835140012542e-08,
+      "pdhg": 0.0007508753076494013,
+      "ipm": 7.44151516137981e-12,
+      "convfuse": 7.44151516137981e-12
+    },
+    "qp_pd": {
+      "pen": 0.13151905973208905,
+      "admm": 3.7040845722937e-10,
+      "pdhg": 8.463026564717227e-10,
+      "ipm": 2.824670624411242e-12,
+      "convfuse": 2.824670624411242e-12
+    },
+    "qp_singular": {
+      "pen": 0.11543346127985457,
+      "admm": 2.5197880729544893e-09,
+      "pdhg": 7.644532919663157e-05,
+      "ipm": 6.478775694986444e-09,
+      "convfuse": 6.478775694986444e-09
+    },
+    "degen": {
+      "pen": 0.12255136613263515,
+      "admm": 2.5481876379378843,
+      "pdhg": 1.8269883099973388e-10,
+      "ipm": 2.5473132465035247e-07,
+      "convfuse": 1.8269883099973388e-10
+    }
+  },
+  "ablation": {
+    "pdhg": {
+      "plain_geomean": 4.597519685055265e-07,
+      "adaptive_geomean": 6.269449757687438e-07,
+      "orders_gain": -0.13470582894808736,
+      "adopted": false,
+      "conclusion": "REJECTED \u2014 neutral or harmful on held-out problems"
+    },
+    "admm": {
+      "plain_geomean": 1.6215574197300478e-06,
+      "adaptive_geomean": 1.974651152986541e-06,
+      "orders_gain": -0.08555805139382855,
+      "adopted": false,
+      "conclusion": "REJECTED \u2014 neutral or harmful on held-out problems"
+    }
+  },
+  "headline": {
+    "naive_pen": {
+      "geomean": 0.1237816475437718,
+      "log10_mean": -0.9073437411099445,
+      "log10_std": 0.1015292216162575,
+      "n": 36,
+      "mean_iters": 400.0,
+      "mean_subopt": -24.608321674348296
+    },
+    "flagship_convfuse": {
+      "geomean": 7.062597791709e-11,
+      "log10_mean": -10.15103552570623,
+      "log10_std": 1.4262277731216262,
+      "n": 36,
+      "mean_iters": 187.88888888888889,
+      "mean_subopt": 2.270445165208912e-08
+    },
+    "best_component": {
+      "method": "ipm",
+      "geomean": 4.315698737927295e-10,
+      "log10_mean": -9.364948879332562,
+      "log10_std": 3.2163762516587697,
+      "n": 36,
+      "mean_iters": 160.13888888888889,
+      "mean_subopt": 0.1994557313537325
+    },
+    "orders_vs_best_component": 0.7860866463736684,
+    "orders_vs_naive": 9.243691784596287,
+    "non_inferior": true,
+    "gate_pass": true,
+    "gate_detail": {
+      "G1_orders_vs_best_component": {
+        "value": 0.7860866463736684,
+        "threshold": 0.5,
+        "pass": true
+      },
+      "G2_orders_vs_naive": {
+        "value": 9.243691784596287,
+        "threshold": 3.0,
+        "pass": true
+      },
+      "G3_non_inferior": {
+        "value": true,
+        "pass": true
+      }
+    }
+  },
+  "failure_cases": [
+    {
+      "regime": "degen",
+      "method": "admm",
+      "cert": 2.5481876379378843,
+      "cause": "the consensus x-step solves [[Q+rho I, A'],[A,0]], which is singular when A is rank deficient, corrupting every iterate"
+    },
+    {
+      "regime": "qp_pd",
+      "method": "pen",
+      "cert": 0.13151905973208905,
+      "cause": "only penalises Ax = b instead of enforcing it; no dual certificate is ever produced"
+    },
+    {
+      "regime": "lp",
+      "method": "pen",
+      "cert": 0.12617882102136685,
+      "cause": "Ax = b is only penalised, never enforced, so the certificate plateaus around 0.25 regardless of iterations"
+    },
+    {
+      "regime": "degen",
+      "method": "pen",
+      "cert": 0.12255136613263515,
+      "cause": "only penalises Ax = b instead of enforcing it; no dual certificate is ever produced"
+    },
+    {
+      "regime": "qp_singular",
+      "method": "pen",
+      "cert": 0.11543346127985457,
+      "cause": "only penalises Ax = b instead of enforcing it; no dual certificate is ever produced"
+    },
+    {
+      "regime": "lp",
+      "method": "pdhg",
+      "cert": 0.0007508753076494013,
+      "cause": "Q = 0 removes all curvature in x, so Chambolle-Pock loses linear convergence and only creeps sublinearly"
+    }
+  ],
+  "route_tables": {
+    "lp/seed7": "ipm",
+    "qp_pd/seed7": "ipm",
+    "qp_singular/seed7": "ipm",
+    "degen/seed7": "pdhg",
+    "lp/seed8": "ipm",
+    "qp_pd/seed8": "ipm",
+    "qp_singular/seed8": "ipm",
+    "degen/seed8": "pdhg",
+    "lp/seed9": "ipm",
+    "qp_pd/seed9": "ipm",
+    "qp_singular/seed9": "ipm",
+    "degen/seed9": "pdhg"
+  },
+  "wall_clock_by_method": {},
+  "wall_clock_sec": 19.811,
+  "deterministic": true,
+  "determinism_max_abs_diff": 0.0
+}

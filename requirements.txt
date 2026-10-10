@@ -1,0 +1,11 @@
+# ConvexForge — loose development requirements (author: 晨星)
+#
+# The *solved* code path needs NumPy only; everything below is for linting and
+# testing. For a byte-reproducible install use requirements.lock.txt instead.
+
+numpy>=2.0
+
+# dev
+pytest>=8
+pytest-cov>=5
+ruff>=0.4
