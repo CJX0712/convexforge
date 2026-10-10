@@ -114,15 +114,18 @@ def _gh_api(method: str, path: str, data: dict | None = None) -> dict:
                 return {}
             return json.loads(res.stdout)
         stderr = res.stderr.decode("utf-8", "replace")
-        if "Bad Gateway" in stderr or "Service Unavailable" in stderr or "502" in stderr or "503" in stderr:
+        if (
+            "Bad Gateway" in stderr
+            or "Service Unavailable" in stderr
+            or "502" in stderr
+            or "503" in stderr
+        ):
             import time
 
-            time.sleep(1.5 ** attempt)
+            time.sleep(1.5**attempt)
             last_exc = RuntimeError(f"gh api {method} {path}: {stderr.strip()}")
             continue
-        raise RuntimeError(
-            f"gh api {method} {path} failed\nstdout: {res.stdout}\nstderr: {stderr}"
-        )
+        raise RuntimeError(f"gh api {method} {path} failed\nstdout: {res.stdout}\nstderr: {stderr}")
     raise last_exc if last_exc else RuntimeError(f"gh api {method} {path} failed after retries")
 
 
@@ -167,7 +170,13 @@ def push_l1(repo: str, tag: str, make_release: bool, files: list[str]) -> None:
             _run(["git", "add", f])
 
     res = _run(
-        ["git", "commit", "-q", "-m", f"ConvexForge {tag} — KKT-certified convex optimization (author: 晨星)"],
+        [
+            "git",
+            "commit",
+            "-q",
+            "-m",
+            f"ConvexForge {tag} — KKT-certified convex optimization (author: 晨星)",
+        ],
         check=False,
     )
     if res.returncode != 0:
@@ -199,7 +208,12 @@ def push_l1(repo: str, tag: str, make_release: bool, files: list[str]) -> None:
 
     _run(["git", "tag", "-f", tag], check=False)
     _run(["git", "push", "-f", "origin", tag], check=False)
-    _release(repo, tag, make_release, "Initial release. See README.md and docs/model_card.md. Author: 晨星.")
+    _release(
+        repo,
+        tag,
+        make_release,
+        "Initial release. See README.md and docs/model_card.md. Author: 晨星.",
+    )
 
 
 # ---------------------------------------------------------------------------

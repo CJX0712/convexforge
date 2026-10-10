@@ -117,8 +117,8 @@ from convexforge.solvers.engines import solve_one
 from convexforge.eval.certificate import certificate
 
 prob = make_problem("qp_pd", 0, seed=7, n_vars=80, n_cons=30)
-res  = solve_one("convfuse", prob, max_iters=400, tol=1e-10)
-print(res.method, res.cert, res.iters)      # convfuse 2.8e-12 22
+res = solve_one("convfuse", prob, max_iters=400, tol=1e-10)
+print(res.method, res.cert, res.iters)  # convfuse 2.8e-12 22
 print(certificate(prob, res.x, res.y))
 ```
 

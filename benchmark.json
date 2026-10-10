@@ -1645,7 +1645,7 @@
     "degen/seed9": "pdhg"
   },
   "wall_clock_by_method": {},
-  "wall_clock_sec": 19.811,
+  "wall_clock_sec": 20.406,
   "deterministic": true,
   "determinism_max_abs_diff": 0.0
 }
